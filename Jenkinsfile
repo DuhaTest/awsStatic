@@ -2,17 +2,14 @@ pipeline {
     agent any
 
     stages {
-        stage('V') {
+        stage('Install') {
             steps {
-                echo 'Hello World'
-                sh 'npm -v'
-                sh 'node -v'
-                sh "yarn -v"
+                sh "yarn install"
             }
         }
-          stage('Stage 2') {
+          stage('Build') {
             steps {
-                echo 'Hello World'
+                sh "yarn build"
             }
         }
     }
