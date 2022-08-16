@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=2d21d9bf9b87"
   },
   "eslintConfig": {
     "extends": [
@@ -60,5 +61,7 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "8.1.0",
     "chromatic": "^6.7.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "react-amplified@0.1.0"
 }
