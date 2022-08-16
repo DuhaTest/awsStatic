@@ -68,6 +68,10 @@ section .tip-wrapper svg path {
   fill: #1ea7fd;
 }
 
+.welcome b{
+  color: deeppink;
+}
+
 
 
 @media only screen and (max-width: 600px) {
