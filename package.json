@@ -60,7 +60,8 @@
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "8.1.0",
-    "chromatic": "^6.7.4"
+    "chromatic": "^6.7.4",
+    "jest-image-snapshot": "^5.1.0"
   },
   "readme": "ERROR: No README data found!",
   "_id": "react-amplified@0.1.0"
